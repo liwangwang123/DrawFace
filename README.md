@@ -5,8 +5,9 @@
 
 原理网上很多,就不说了. 给自己学习的过程增加的乐趣,比单独画一些横线,曲线,椭圆要印象深刻!
 1, 脸的轮廓,用椭圆.
-```
-// 1. 轮廓
+
+    // 1. 轮廓
+    ```
     func drawOutline() {
         //获取到当前绘制上下文
         guard let context = UIGraphicsGetCurrentContext() else {
@@ -19,4 +20,4 @@
         context.strokePath()
         
     }
-```
+    ```

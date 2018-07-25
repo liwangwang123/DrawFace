@@ -7,7 +7,7 @@
 1, 脸的轮廓,用椭圆.
 
     // 1. 轮廓
-    ```
+    
     func drawOutline() {
         //获取到当前绘制上下文
         guard let context = UIGraphicsGetCurrentContext() else {
@@ -20,4 +20,4 @@
         context.strokePath()
         
     }
-    ```
+    
